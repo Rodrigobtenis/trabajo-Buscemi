@@ -1,0 +1,54 @@
+header {
+  background-color: #2c3e50; /* Color de fondo principal */
+  color: #ecf0f1; /* Color de texto */
+  padding: 15px 20px; /* Espaciado interno */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.anestesiasTattoo {
+  color: #ffffff; /* Color del título */
+  font-size: 24px; /* Tamaño de fuente del título */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.anestesiasTattoo:hover {
+  color: #3498db; /* Cambia a color azul al pasar el mouse sobre el título */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1; /* Color del enlace */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #3498db; /* Cambia a color azul al pasar el mouse sobre los enlaces */
+}
+
+/* Estilo para el carrito de compras */
+.CartWidget {
+  font-size: 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.CartWidget:hover {
+  color: #3498db; /* Cambia a color azul al pasar el mouse sobre el carrito de compras */
+}

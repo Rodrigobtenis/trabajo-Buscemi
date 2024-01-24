@@ -1,0 +1,28 @@
+.cardProducto{
+background-color: rgb(247, 243, 238);
+border-radius: 10px;
+width:  15rem;
+padding: 1rem;
+margin: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.cardProducto img{
+    width: 150px;
+}
+
+.cardProducto h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.cardProducto p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
