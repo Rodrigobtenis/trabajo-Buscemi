@@ -1,7 +1,7 @@
 const productos = [
-    { id: "1", nombre: "Anestesia Tktx", precio: 900, img: "./img/anestesiatktx.jpeg", idCat: "2" },
+    { id: "1", nombre: "Anestesia Tktx", precio: 900, img: "./img/anestesiatktx.png", idCat: "2" },
     { id: "2", nombre: "Anestesia Tktx Spray", precio: 500, img: "./img/anestesiatktxspray.png", idCat: "2" },
-    { id: "3", nombre: "Anestesia Tag 45", precio: 3200, img: "./img/anestesiatag45.webp", idCat: "3" },
+    { id: "3", nombre: "Anestesia Tag 45", precio: 3200, img: "./img/tag45.png", idCat: "3" },
     { id: "4", nombre: "Combo Micropigmentacion", precio: 4100, img: "./img/combomicro.png", idCat: "3" },
     { id: "5", nombre: "Combo Tatuajes", precio: 3200, img: "./img/combotattoo.png", idCat: "3" },
 
