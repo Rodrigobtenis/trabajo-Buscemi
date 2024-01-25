@@ -25,4 +25,13 @@ align-items: center;
 }
 
 
+.verdetalles {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease, transform 0.2s ease; 
+}
 
+.verdetalles:hover {
+    color: #3498db; 
+    transform: scale(1.1); 
+}
