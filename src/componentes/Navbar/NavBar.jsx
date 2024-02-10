@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import CartWidget from '../Cartwidget/CartWidgel';
 import './NavBar.css';
 import { Link, NavLink } from 'react-router-dom';
@@ -6,46 +6,45 @@ import { Link, NavLink } from 'react-router-dom';
 const NavBar = () => {
   return (
     <header>
-
-
-
-      <Link to="/">
-        <h1 className='anestesiasTattoo'>Anestesias Tattoo</h1>
-      </Link>
-
-
-
       <nav>
-
-        <ul>
-
+        <ul className="navbar-list">
+        <li className='logo'>
+  <Link to="/" className="logo-link">
+    <img className='logo-img' src="../public/img/logo.png" alt="logo" />
+  </Link>
+</li>
           <li>
-            <NavLink to="/categoria/2">
-              Piel Cerrada
+            <NavLink to="/categoria/1" className="mundo">
+              Microblading
             </NavLink>
           </li>
           <li>
-            <NavLink to="/categoria/2">
-              Piel Abierta
+            <NavLink to="/categoria/2" className="mundo">
+              Micropigmentación
             </NavLink>
           </li>
           <li>
-            <NavLink to="/categoria/3">
-              Combos
+            <NavLink to="/categoria/3" className="mundo">
+              Insumos Tattoo
             </NavLink>
           </li>
           <li>
-            <NavLink to="/categoria/3">
-              Cremas
+            <NavLink to="/categoria/4" className="mundo">
+              Descartables
             </NavLink>
           </li>
-
+          <li className="search-bar">
+            <input type="text" placeholder="¿Qué producto estás buscando?" />
+            <button className='button'>Buscar</button>
+          </li>
+          
+          <li>
+            <CartWidget />
+          </li>
         </ul>
       </nav>
-      <CartWidget />
-
     </header>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;

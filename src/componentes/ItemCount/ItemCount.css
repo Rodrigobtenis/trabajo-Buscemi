@@ -1,0 +1,47 @@
+.contenedor-carrito-boton {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+  }
+  
+  .contenedor-carrito-boton > div {
+    display: flex;
+    justify-content: space-between; /* Distribuye los botones a los extremos del div */
+    align-items: center;
+    margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+  }
+  
+  button.agregar-carrito {
+    /* Puedes añadir estilos adicionales según tus necesidades */
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.agregar-carrito:hover {
+    background-color: #45a049;
+  }
+  
+  button {
+    /* Estilos comunes para los botones dentro del contenedor */
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005684;
+  }
+
+  .numero-central{
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+  }

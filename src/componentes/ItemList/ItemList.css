@@ -1,4 +1,7 @@
-.contenedorProductos{
-    display: flex ;
+.contenedorProductos {
+    display: flex;
     flex-wrap: wrap;
-}
+    justify-content: space-around; /* Distribuye las tarjetas uniformemente */
+    gap: 20px; /* Espacio entre las tarjetas */
+    margin: 50px;
+  }

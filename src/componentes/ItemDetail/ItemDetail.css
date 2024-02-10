@@ -1,12 +1,63 @@
-.contenedorItem{
-    text-align: center;
-    border: 1px solid black;
-    margin: 3rem;
-}
+.contenedorItem {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
-img{
-    width: 30vw;
+  .detalleProducto{
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagenProducto{
+    width: 200px;
+    align-items: center;
+    margin-right: 30px;
 
-}
+  }
+  /* Estilos para los elementos dentro del contenedor */
+  .contenedorItem h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contenedorItem h3 {
+    font-size: 20px;
+    color: #3498db; /* Cambia el color a tu preferencia */
+  }
+  
+  .contenedorItem p {
+    margin-bottom: 10px;
+  }
+  
+  .contenedorItem img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el botón de "Terminar Compra" */
+  .contenedorItem a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27ae60; /* Cambia el color a tu preferencia */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contenedorItem a:hover {
+    background-color: #218c53; /* Cambia el color a tu preferencia */
+  }
+  
+  /* Estilos para el contador de productos (ItemCount) */
+  .contenedorItem .item-count {
+    margin-top: 10px;
+  }
 
 
+  
